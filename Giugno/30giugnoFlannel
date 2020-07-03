@@ -1,0 +1,108 @@
+2020-06-30 13:12:32.255802688 +0200 CEST m=+0.039578239
+POD TO POD DIFFERENT NODES:
+
+*****************************************************************
+
+avg speed of the network Iperf3 TCP: 21.430000 Gbits/sec, client cpu usage: 64.030000 and server CPU usage: 32.520000
+*****************************************************************
+
+
+*****************************************************************
+
+avg speed of the network Iperf3 UDP: 3.057000 Gbits/sec, client cpu usage: 18.020000 and server CPU usage: 79.190000
+*****************************************************************
+
+
+*****************************************************************
+
+avg speed of the network Netperf TCP: 14.088597 Gbits/sec, confidence avg0.799667 and cpu client/server usage : 5.280000error: 4.348000/12.293333:3.007333
+*****************************************************************
+
+
+*****************************************************************
+
+avg speed of the network Netperf UDP: 2.735033 Gbits/sec, confidence avg19.898000 and cpu client/server usage : 2735.033333:0.283667 / 3.703333:33.527000
+*****************************************************************
+
+2020-06-30 13:58:05.055055923 +0200 CEST m=+2732.838831514
+*****************************************************************
+
+avg speed of network Iperf3 TCP with service (1 service in the cluster): 13.620000 Gbits/sec, client cpu usage: 55.790000 and server CPU usage: 38.270000
+*****************************************************************
+
+
+*****************************************************************
+
+avg speed of network Iperf3 TCP with service (1 service in the cluster): 14.072253 Gbits/sec, confidence avg0.833333 and cpu client/server usage : 5.000000/12.223333
+*****************************************************************
+
+
+*****************************************************************
+
+avg speed of network Iperf3 TCP with service (multiple services in the cluster): 16.030000 Gbits/sec, client cpu usage: 58.550000 and server CPU usage: 34.270000
+*****************************************************************
+
+
+*****************************************************************
+
+avg speed of network Iperf3 TCP with service (multiple services in the cluster): 13.400963 Gbits/sec, confidence avg1.323667 and cpu client/server usage : 7.780000/9.900000
+*****************************************************************
+
+----------------------------------------------------------------------------------------------------------------------------------
+POD TO POD SAME NODE:
+
+*****************************************************************
+
+avg speed of the network Iperf3 TCP (same node): 36.750000 Gbits/sec, client cpu usage: 73.070000 and server CPU usage: 79.600000
+*****************************************************************
+
+
+*****************************************************************
+
+avg speed of the network Iperf3 UDP (same node): 3.777000 Gbits/sec, client cpu usage: 35.440000 and server CPU usage: 78.860000
+*****************************************************************
+
+
+*****************************************************************
+
+avg speed of the network Netperf TCP (same node): 14.278953 Gbits/sec, confidence avg0.833333 and cpu client/server usage : 15.856667error: 1.666667/15.856667:1.666667
+*****************************************************************
+
+
+*****************************************************************
+
+avg speed of the network Netperf UDP (same node): 3.961633 Gbits/sec, confidence avg0.833333 and cpu client/server usage : 10.510000:1.666667 / 10.510000:1.666667
+*****************************************************************
+
+
+*****************************************************************
+
+avg speed of network Iperf3 TCP with service (1 service in the cluster): 23.210000 Gbits/sec, client cpu usage: 70.250000 and server CPU usage: 79.920000
+*****************************************************************
+
+
+*****************************************************************
+
+avg speed of network Iperf3 TCP with service (1 service in the cluster): 6.871830 Gbits/sec, confidence avg0.833333 and cpu client/server usage : 10.503333/10.503333
+*****************************************************************
+
+
+*****************************************************************
+
+avg speed of network Iperf3 TCP with service (same node) (multiple services in the cluster): 23.090000 Gbits/sec, client cpu usage: 69.040000 and server CPU usage: 79.890000
+*****************************************************************
+
+
+*****************************************************************
+
+avg speed of network Iperf3 TCP with service (same node) (multiple services in the cluster): 6.868313 Gbits/sec, confidence avg0.833333 and cpu client/server usage : 10.650000/10.650000
+*****************************************************************
+
+----------------------------------------------------------------------------------------------------------------------------------
+Hairpin back:
+
+*****************************************************************
+
+avg speed of network Netperf TCP Hairpinback with service (1 service in the cluster): 9.417330 Gbits/sec, confidence avg0.833333 and cpu client/server usage : 15.946667error: 1.666667/15.946667:1.666667
+*****************************************************************
+
