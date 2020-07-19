@@ -1,0 +1,31 @@
+2020-07-19 08:30:48.616094369 +0200 CEST m=+0.056067586
+POD TO POD DIFFERENT NODES:
+2020-07-19 08:30:48.616136674 +0200 CEST m=+0.056109894----------------------------------------------------------------------------------------------------------------------------------2020-07-19 08:30:48.616151472 +0200 CEST m=+0.056124692
+POD TO POD SAME NODE:
+2020-07-19 08:30:48.61617804 +0200 CEST m=+0.0561512572020-07-19 08:30:48.616182487 +0200 CEST m=+0.056155705----------------------------------------------------------------------------------------------------------------------------------
+Hairpin back:
+Starting netserver with host 'IN(6)ADDR_ANY' port '15001' and family AF_UNSPEC
+MIGRATED TCP STREAM TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 10.98.201.57 (10.98.2) port 35001 AF_INET : +/-2.500% @ 99% conf.  : nodelay : cpu bind
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^6bits/s  % S      % S      us/KB   us/KB
+
+131072  16384  16384    10.00      20514.44   23.70    23.70    0.095   0.095  
+
+Alignment      Offset         Bytes    Bytes       Sends   Bytes    Recvs
+Local  Remote  Local  Remote  Xfered   Per                 Per
+Send   Recv    Send   Recv             Send (avg)          Recv (avg)
+    8       8      0       0 25802588160  16384.00    1574865   16405.21 1572829
+
+Maximum
+Segment
+Size (bytes)
+  1398
+
+*****************************************************************
+
+avg speed of network Netperf TCP Hairpinback with service (1 service in the cluster): 20.514440 Gbits/sec, confidence avg: 2.500000 and cpu client usage : 23.700000error: 2.500000/server: 23.700000:2.500000
+*****************************************************************
+
+2020-07-19 08:35:00.972259299 +0200 CEST m=+252.412232620
