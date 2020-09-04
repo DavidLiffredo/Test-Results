@@ -1,0 +1,1053 @@
+2020-08-28 21:10:57.098676032 +0200 CEST m=+0.177521337
+POD TO POD DIFFERENT NODES:
+
+POD TO POD SAME NODE:
+iperf 3.0.7
+Linux jobiperfclient-9gjcz 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:11:17 GMT
+Connecting to host 10.0.2.3, port 5002
+      Cookie: jobiperfclient-9gjcz.1598641877.3041
+      TCP MSS: 1448
+[  4] local 10.0.2.4 port 37994 connected to 10.0.2.3 port 5002
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.33 GBytes  54.3 Gbits/sec    0    347 KBytes       
+[  4]   1.00-2.00   sec  6.33 GBytes  54.4 Gbits/sec    0    365 KBytes       
+[  4]   2.00-3.00   sec  6.30 GBytes  54.1 Gbits/sec    0    392 KBytes       
+[  4]   3.00-4.00   sec  6.35 GBytes  54.6 Gbits/sec    0    502 KBytes       
+[  4]   4.00-5.00   sec  6.35 GBytes  54.5 Gbits/sec    0    502 KBytes       
+[  4]   5.00-6.00   sec  6.35 GBytes  54.6 Gbits/sec    0    635 KBytes       
+[  4]   6.00-7.00   sec  6.34 GBytes  54.5 Gbits/sec    0    635 KBytes       
+[  4]   7.00-8.00   sec  6.32 GBytes  54.2 Gbits/sec    0    818 KBytes       
+[  4]   8.00-9.00   sec  6.31 GBytes  54.2 Gbits/sec    0    818 KBytes       
+[  4]   9.00-10.00  sec  6.34 GBytes  54.5 Gbits/sec    0    946 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  63.3 GBytes  54.4 Gbits/sec    0             sender
+[  4]   0.00-10.00  sec  63.3 GBytes  54.4 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (2.3%u/97.2%s), remote/receiver 47.9% (3.4%u/44.5%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-9gjcz 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:11:38 GMT
+Connecting to host 10.0.2.3, port 5002
+      Cookie: jobiperfclient-9gjcz.1598641898.4840
+      TCP MSS: 1448
+[  4] local 10.0.2.4 port 38012 connected to 10.0.2.3 port 5002
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.32 GBytes  54.2 Gbits/sec    0    258 KBytes       
+[  4]   1.00-2.00   sec  6.32 GBytes  54.3 Gbits/sec   42    242 KBytes       
+[  4]   2.00-3.00   sec  6.32 GBytes  54.3 Gbits/sec    0    326 KBytes       
+[  4]   3.00-4.00   sec  6.31 GBytes  54.2 Gbits/sec    0    326 KBytes       
+[  4]   4.00-5.00   sec  6.30 GBytes  54.1 Gbits/sec    0    326 KBytes       
+[  4]   5.00-6.00   sec  6.32 GBytes  54.3 Gbits/sec    0    326 KBytes       
+[  4]   6.00-7.00   sec  6.33 GBytes  54.4 Gbits/sec    0    365 KBytes       
+[  4]   7.00-8.00   sec  6.32 GBytes  54.3 Gbits/sec    0    365 KBytes       
+[  4]   8.00-9.00   sec  6.31 GBytes  54.2 Gbits/sec    0    365 KBytes       
+[  4]   9.00-10.00  sec  6.33 GBytes  54.4 Gbits/sec    0    365 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  63.2 GBytes  54.3 Gbits/sec   42             sender
+[  4]   0.00-10.00  sec  63.2 GBytes  54.3 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.6% (1.9%u/97.6%s), remote/receiver 46.5% (3.8%u/42.8%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-9gjcz 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:11:59 GMT
+Connecting to host 10.0.2.3, port 5002
+      Cookie: jobiperfclient-9gjcz.1598641919.6592
+      TCP MSS: 1448
+[  4] local 10.0.2.4 port 38020 connected to 10.0.2.3 port 5002
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.17 GBytes  53.0 Gbits/sec    6    206 KBytes       
+[  4]   1.00-2.00   sec  6.24 GBytes  53.6 Gbits/sec    0    255 KBytes       
+[  4]   2.00-3.00   sec  6.21 GBytes  53.3 Gbits/sec    0    255 KBytes       
+[  4]   3.00-4.00   sec  6.18 GBytes  53.1 Gbits/sec    0    268 KBytes       
+[  4]   4.00-5.00   sec  6.20 GBytes  53.2 Gbits/sec    0    298 KBytes       
+[  4]   5.00-6.00   sec  6.19 GBytes  53.2 Gbits/sec    0    306 KBytes       
+[  4]   6.00-7.00   sec  6.24 GBytes  53.6 Gbits/sec    0    306 KBytes       
+[  4]   7.00-8.00   sec  6.19 GBytes  53.2 Gbits/sec    0    311 KBytes       
+[  4]   8.00-9.00   sec  6.21 GBytes  53.4 Gbits/sec    0    329 KBytes       
+[  4]   9.00-10.00  sec  6.23 GBytes  53.5 Gbits/sec    0    329 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  62.1 GBytes  53.3 Gbits/sec    6             sender
+[  4]   0.00-10.00  sec  62.1 GBytes  53.3 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (1.8%u/97.7%s), remote/receiver 46.4% (3.6%u/42.9%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-r5wt9 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:13:55 GMT
+Connecting to host 10.0.2.5, port 5002
+      Cookie: jobiperfclient-r5wt9.1598642035.3658
+      TCP MSS: 1448
+[  4] local 10.0.2.6 port 34966 connected to 10.0.2.5 port 5002
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.41 GBytes  55.0 Gbits/sec    6    212 KBytes       
+[  4]   1.00-2.00   sec  6.38 GBytes  54.8 Gbits/sec    0    238 KBytes       
+[  4]   2.00-3.00   sec  6.37 GBytes  54.8 Gbits/sec    0    243 KBytes       
+[  4]   3.00-4.00   sec  6.34 GBytes  54.4 Gbits/sec    0    280 KBytes       
+[  4]   4.00-5.00   sec  6.32 GBytes  54.3 Gbits/sec    0    280 KBytes       
+[  4]   5.00-6.00   sec  6.36 GBytes  54.6 Gbits/sec    0    280 KBytes       
+[  4]   6.00-7.00   sec  6.39 GBytes  54.9 Gbits/sec    0    280 KBytes       
+[  4]   7.00-8.00   sec  6.35 GBytes  54.5 Gbits/sec    0    280 KBytes       
+[  4]   8.00-9.00   sec  6.35 GBytes  54.5 Gbits/sec    0    280 KBytes       
+[  4]   9.00-10.00  sec  6.37 GBytes  54.7 Gbits/sec    0    280 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  63.6 GBytes  54.7 Gbits/sec    6             sender
+[  4]   0.00-10.00  sec  63.6 GBytes  54.7 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (2.2%u/97.3%s), remote/receiver 46.8% (3.4%u/43.4%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-r5wt9 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:14:16 GMT
+Connecting to host 10.0.2.5, port 5002
+      Cookie: jobiperfclient-r5wt9.1598642056.5433
+      TCP MSS: 1448
+[  4] local 10.0.2.6 port 34984 connected to 10.0.2.5 port 5002
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.32 GBytes  54.3 Gbits/sec    0    306 KBytes       
+[  4]   1.00-2.00   sec  6.24 GBytes  53.6 Gbits/sec    0    337 KBytes       
+[  4]   2.00-3.00   sec  6.25 GBytes  53.6 Gbits/sec   16    281 KBytes       
+[  4]   3.00-4.00   sec  6.21 GBytes  53.3 Gbits/sec    0    281 KBytes       
+[  4]   4.00-5.00   sec  6.28 GBytes  54.0 Gbits/sec    0    412 KBytes       
+[  4]   5.00-6.00   sec  6.25 GBytes  53.7 Gbits/sec    0    412 KBytes       
+[  4]   6.00-7.00   sec  6.27 GBytes  53.8 Gbits/sec    0    412 KBytes       
+[  4]   7.00-8.00   sec  6.20 GBytes  53.3 Gbits/sec    0    412 KBytes       
+[  4]   8.00-9.00   sec  6.23 GBytes  53.5 Gbits/sec    0    412 KBytes       
+[  4]   9.00-10.00  sec  6.22 GBytes  53.4 Gbits/sec    0    412 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  62.5 GBytes  53.7 Gbits/sec   16             sender
+[  4]   0.00-10.00  sec  62.5 GBytes  53.7 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (1.7%u/97.8%s), remote/receiver 46.5% (3.8%u/42.7%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-r5wt9 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:14:37 GMT
+Connecting to host 10.0.2.5, port 5002
+      Cookie: jobiperfclient-r5wt9.1598642077.7190
+      TCP MSS: 1448
+[  4] local 10.0.2.6 port 34992 connected to 10.0.2.5 port 5002
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.43 GBytes  55.3 Gbits/sec    3    266 KBytes       
+[  4]   1.00-2.00   sec  6.44 GBytes  55.3 Gbits/sec   43    212 KBytes       
+[  4]   2.00-3.00   sec  6.43 GBytes  55.2 Gbits/sec   31    254 KBytes       
+[  4]   3.00-4.00   sec  6.44 GBytes  55.3 Gbits/sec    0    254 KBytes       
+[  4]   4.00-5.00   sec  6.40 GBytes  54.9 Gbits/sec    0    254 KBytes       
+[  4]   5.00-6.00   sec  6.44 GBytes  55.3 Gbits/sec    0    266 KBytes       
+[  4]   6.00-7.00   sec  6.45 GBytes  55.4 Gbits/sec    0    276 KBytes       
+[  4]   7.00-8.00   sec  6.45 GBytes  55.4 Gbits/sec    0    285 KBytes       
+[  4]   8.00-9.00   sec  6.43 GBytes  55.3 Gbits/sec    0    285 KBytes       
+[  4]   9.00-10.00  sec  6.41 GBytes  55.0 Gbits/sec    0    285 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  64.3 GBytes  55.2 Gbits/sec   77             sender
+[  4]   0.00-10.00  sec  64.3 GBytes  55.2 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (1.9%u/97.7%s), remote/receiver 46.6% (3.4%u/43.2%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-w7z7l 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:16:34 GMT
+Connecting to host 10.0.2.7, port 5002
+      Cookie: jobiperfclient-w7z7l.1598642194.6540
+      TCP MSS: 1448
+[  4] local 10.0.2.8 port 53710 connected to 10.0.2.7 port 5002
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.14 GBytes  52.7 Gbits/sec    4    307 KBytes       
+[  4]   1.00-2.00   sec  6.04 GBytes  51.9 Gbits/sec    0    328 KBytes       
+[  4]   2.00-3.00   sec  6.14 GBytes  52.8 Gbits/sec    0    565 KBytes       
+[  4]   3.00-4.00   sec  6.12 GBytes  52.5 Gbits/sec    0    565 KBytes       
+[  4]   4.00-5.00   sec  6.14 GBytes  52.7 Gbits/sec    0    565 KBytes       
+[  4]   5.00-6.00   sec  6.16 GBytes  52.9 Gbits/sec    0    565 KBytes       
+[  4]   6.00-7.00   sec  6.19 GBytes  53.1 Gbits/sec    0    565 KBytes       
+[  4]   7.00-8.00   sec  6.18 GBytes  53.0 Gbits/sec    0    565 KBytes       
+[  4]   8.00-9.00   sec  6.17 GBytes  53.0 Gbits/sec    0    565 KBytes       
+[  4]   9.00-10.00  sec  6.15 GBytes  52.8 Gbits/sec    0    565 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  61.4 GBytes  52.8 Gbits/sec    4             sender
+[  4]   0.00-10.00  sec  61.4 GBytes  52.8 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (2.7%u/96.8%s), remote/receiver 47.8% (3.3%u/44.5%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-w7z7l 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:16:55 GMT
+Connecting to host 10.0.2.7, port 5002
+      Cookie: jobiperfclient-w7z7l.1598642215.8349
+      TCP MSS: 1448
+[  4] local 10.0.2.8 port 53728 connected to 10.0.2.7 port 5002
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.18 GBytes  53.1 Gbits/sec    0    322 KBytes       
+[  4]   1.00-2.00   sec  6.26 GBytes  53.7 Gbits/sec   22    253 KBytes       
+[  4]   2.00-3.00   sec  6.24 GBytes  53.6 Gbits/sec    0    277 KBytes       
+[  4]   3.00-4.00   sec  6.20 GBytes  53.2 Gbits/sec    0    318 KBytes       
+[  4]   4.00-5.00   sec  6.23 GBytes  53.5 Gbits/sec    0    319 KBytes       
+[  4]   5.00-6.00   sec  6.24 GBytes  53.6 Gbits/sec    0    355 KBytes       
+[  4]   6.00-7.00   sec  6.19 GBytes  53.2 Gbits/sec    0    355 KBytes       
+[  4]   7.00-8.00   sec  6.25 GBytes  53.7 Gbits/sec    0    355 KBytes       
+[  4]   8.00-9.00   sec  6.20 GBytes  53.2 Gbits/sec    0    355 KBytes       
+[  4]   9.00-10.00  sec  6.20 GBytes  53.2 Gbits/sec    0    355 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  62.2 GBytes  53.4 Gbits/sec   22             sender
+[  4]   0.00-10.00  sec  62.2 GBytes  53.4 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (1.7%u/97.8%s), remote/receiver 46.4% (3.8%u/42.6%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-w7z7l 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:17:17 GMT
+Connecting to host 10.0.2.7, port 5002
+      Cookie: jobiperfclient-w7z7l.1598642237.0112
+      TCP MSS: 1448
+[  4] local 10.0.2.8 port 53736 connected to 10.0.2.7 port 5002
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.23 GBytes  53.5 Gbits/sec    0    325 KBytes       
+[  4]   1.00-2.00   sec  6.23 GBytes  53.6 Gbits/sec   42    257 KBytes       
+[  4]   2.00-3.00   sec  6.25 GBytes  53.6 Gbits/sec    0    441 KBytes       
+[  4]   3.00-4.00   sec  6.23 GBytes  53.5 Gbits/sec    0    441 KBytes       
+[  4]   4.00-5.00   sec  6.19 GBytes  53.1 Gbits/sec    0    441 KBytes       
+[  4]   5.00-6.00   sec  6.20 GBytes  53.3 Gbits/sec    0    441 KBytes       
+[  4]   6.00-7.00   sec  6.20 GBytes  53.3 Gbits/sec    0    441 KBytes       
+[  4]   7.00-8.00   sec  6.22 GBytes  53.4 Gbits/sec    0    441 KBytes       
+[  4]   8.00-9.00   sec  6.20 GBytes  53.3 Gbits/sec    0    441 KBytes       
+[  4]   9.00-10.00  sec  6.13 GBytes  52.6 Gbits/sec    0    441 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  62.1 GBytes  53.3 Gbits/sec   42             sender
+[  4]   0.00-10.00  sec  62.1 GBytes  53.3 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (2.0%u/97.6%s), remote/receiver 46.4% (3.8%u/42.6%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-4vqqc 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:19:04 GMT
+Connecting to host 10.0.2.9, port 5002
+      Cookie: jobiperfclient-4vqqc.1598642344.9422
+      TCP MSS: 1448
+[  4] local 10.0.2.10 port 33922 connected to 10.0.2.9 port 5002
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.29 GBytes  54.0 Gbits/sec    0    302 KBytes       
+[  4]   1.00-2.00   sec  6.22 GBytes  53.4 Gbits/sec    1    340 KBytes       
+[  4]   2.00-3.00   sec  6.32 GBytes  54.2 Gbits/sec    0    340 KBytes       
+[  4]   3.00-4.00   sec  6.27 GBytes  53.8 Gbits/sec    0    340 KBytes       
+[  4]   4.00-5.00   sec  6.23 GBytes  53.5 Gbits/sec    0    358 KBytes       
+[  4]   5.00-6.00   sec  6.29 GBytes  54.0 Gbits/sec    0    358 KBytes       
+[  4]   6.00-7.00   sec  6.31 GBytes  54.2 Gbits/sec    0    358 KBytes       
+[  4]   7.00-8.00   sec  6.29 GBytes  54.0 Gbits/sec    0    358 KBytes       
+[  4]   8.00-9.00   sec  6.32 GBytes  54.3 Gbits/sec    0    577 KBytes       
+[  4]   9.00-10.00  sec  6.26 GBytes  53.8 Gbits/sec    0    577 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  62.8 GBytes  53.9 Gbits/sec    1             sender
+[  4]   0.00-10.00  sec  62.8 GBytes  53.9 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (1.9%u/97.6%s), remote/receiver 48.4% (4.1%u/44.3%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-4vqqc 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:19:26 GMT
+Connecting to host 10.0.2.9, port 5002
+      Cookie: jobiperfclient-4vqqc.1598642366.1190
+      TCP MSS: 1448
+[  4] local 10.0.2.10 port 33940 connected to 10.0.2.9 port 5002
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.14 GBytes  52.7 Gbits/sec    0    333 KBytes       
+[  4]   1.00-2.00   sec  6.23 GBytes  53.5 Gbits/sec    3    317 KBytes       
+[  4]   2.00-3.00   sec  6.24 GBytes  53.6 Gbits/sec    0    319 KBytes       
+[  4]   3.00-4.00   sec  6.16 GBytes  52.9 Gbits/sec    0    511 KBytes       
+[  4]   4.00-5.00   sec  6.21 GBytes  53.3 Gbits/sec    0    511 KBytes       
+[  4]   5.00-6.00   sec  6.16 GBytes  52.9 Gbits/sec    0    511 KBytes       
+[  4]   6.00-7.00   sec  6.20 GBytes  53.2 Gbits/sec    0    511 KBytes       
+[  4]   7.00-8.00   sec  6.19 GBytes  53.2 Gbits/sec    0    511 KBytes       
+[  4]   8.00-9.00   sec  6.15 GBytes  52.8 Gbits/sec    0    511 KBytes       
+[  4]   9.00-10.00  sec  6.20 GBytes  53.3 Gbits/sec    0    511 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  61.9 GBytes  53.2 Gbits/sec    3             sender
+[  4]   0.00-10.00  sec  61.9 GBytes  53.2 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (2.2%u/97.4%s), remote/receiver 46.5% (3.6%u/42.9%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-4vqqc 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:19:47 GMT
+Connecting to host 10.0.2.9, port 5002
+      Cookie: jobiperfclient-4vqqc.1598642387.2951
+      TCP MSS: 1448
+[  4] local 10.0.2.10 port 33948 connected to 10.0.2.9 port 5002
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.14 GBytes  52.7 Gbits/sec    0    289 KBytes       
+[  4]   1.00-2.00   sec  6.15 GBytes  52.8 Gbits/sec    0    336 KBytes       
+[  4]   2.00-3.00   sec  6.09 GBytes  52.3 Gbits/sec    0    352 KBytes       
+[  4]   3.00-4.00   sec  6.15 GBytes  52.8 Gbits/sec    0    388 KBytes       
+[  4]   4.00-5.00   sec  6.09 GBytes  52.3 Gbits/sec   45    272 KBytes       
+[  4]   5.00-6.00   sec  6.11 GBytes  52.5 Gbits/sec    0    684 KBytes       
+[  4]   6.00-7.00   sec  6.11 GBytes  52.5 Gbits/sec   49    336 KBytes       
+[  4]   7.00-8.00   sec  6.12 GBytes  52.6 Gbits/sec    0    377 KBytes       
+[  4]   8.00-9.00   sec  6.11 GBytes  52.5 Gbits/sec    0    385 KBytes       
+[  4]   9.00-10.00  sec  6.09 GBytes  52.3 Gbits/sec    0    455 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  61.2 GBytes  52.5 Gbits/sec   94             sender
+[  4]   0.00-10.00  sec  61.2 GBytes  52.5 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (2.0%u/97.6%s), remote/receiver 46.3% (4.1%u/42.3%s)
+
+iperf Done.
+
+*****************************************************************
+
+avg speed of the network Iperf3 TCP (same node): 53.700000 Gbits/sec, client cpu usage: 99.510000 and server CPU usage: 46.960000
+*****************************************************************
+
+2020-08-28 21:21:31.941027411 +0200 CEST m=+635.019872884MIGRATED TCP STREAM TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 10.0.2.11 (10.0.2.) port 0 AF_INET : +/-2.500% @ 99% conf.  : nodelay : cpu bind
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^6bits/s  % S      % S      us/KB   us/KB
+
+131072  16384  16384    10.00      25781.90   23.64    23.64    0.075   0.075  
+
+*****************************************************************
+
+avg speed of the network Netperf TCP (same node): 25.781900 Gbits/sec, confidence avg: 2.500000 and cpu client usage : 23.640000error: 2.500000/server: 23.640000:2.500000
+*****************************************************************
+
+iperf 3.0.7
+Linux jobiperfclient-nrtrx 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:24:15 GMT
+Connecting to host 10.103.224.97, port 5001
+      Cookie: jobiperfclient-nrtrx.1598642655.7820
+      TCP MSS: 1448
+[  4] local 10.0.2.14 port 32956 connected to 10.103.224.97 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  5.96 GBytes  51.1 Gbits/sec   45    332 KBytes       
+[  4]   1.00-2.00   sec  6.05 GBytes  52.0 Gbits/sec    0    352 KBytes       
+[  4]   2.00-3.00   sec  5.98 GBytes  51.4 Gbits/sec    0    382 KBytes       
+[  4]   3.00-4.00   sec  5.99 GBytes  51.5 Gbits/sec    0    647 KBytes       
+[  4]   4.00-5.00   sec  5.96 GBytes  51.2 Gbits/sec    0    647 KBytes       
+[  4]   5.00-6.00   sec  5.99 GBytes  51.5 Gbits/sec    0    647 KBytes       
+[  4]   6.00-7.00   sec  5.95 GBytes  51.1 Gbits/sec    0    647 KBytes       
+[  4]   7.00-8.00   sec  6.01 GBytes  51.6 Gbits/sec    0    647 KBytes       
+[  4]   8.00-9.00   sec  6.02 GBytes  51.7 Gbits/sec    0    647 KBytes       
+[  4]   9.00-10.00  sec  5.96 GBytes  51.2 Gbits/sec    0    647 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  59.9 GBytes  51.4 Gbits/sec   45             sender
+[  4]   0.00-10.00  sec  59.9 GBytes  51.4 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (2.0%u/97.6%s), remote/receiver 47.1% (3.8%u/43.3%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-nrtrx 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:24:36 GMT
+Connecting to host 10.103.224.97, port 5001
+      Cookie: jobiperfclient-nrtrx.1598642676.9591
+      TCP MSS: 1448
+[  4] local 10.0.2.14 port 32974 connected to 10.103.224.97 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  5.90 GBytes  50.7 Gbits/sec    0    261 KBytes       
+[  4]   1.00-2.00   sec  5.90 GBytes  50.7 Gbits/sec   19    930 KBytes       
+[  4]   2.00-3.00   sec  5.87 GBytes  50.5 Gbits/sec    0    930 KBytes       
+[  4]   3.00-4.00   sec  5.87 GBytes  50.4 Gbits/sec    0    930 KBytes       
+[  4]   4.00-5.00   sec  5.90 GBytes  50.7 Gbits/sec    0    930 KBytes       
+[  4]   5.00-6.00   sec  5.88 GBytes  50.5 Gbits/sec    0    930 KBytes       
+[  4]   6.00-7.00   sec  5.87 GBytes  50.4 Gbits/sec    0    930 KBytes       
+[  4]   7.00-8.00   sec  5.87 GBytes  50.4 Gbits/sec    0    930 KBytes       
+[  4]   8.00-9.00   sec  5.87 GBytes  50.4 Gbits/sec    0    930 KBytes       
+[  4]   9.00-10.00  sec  5.84 GBytes  50.2 Gbits/sec    0    930 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  58.8 GBytes  50.5 Gbits/sec   19             sender
+[  4]   0.00-10.00  sec  58.8 GBytes  50.5 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (2.1%u/97.5%s), remote/receiver 46.2% (3.9%u/42.3%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-nrtrx 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:24:58 GMT
+Connecting to host 10.103.224.97, port 5001
+      Cookie: jobiperfclient-nrtrx.1598642698.1354
+      TCP MSS: 1448
+[  4] local 10.0.2.14 port 32982 connected to 10.103.224.97 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  5.90 GBytes  50.7 Gbits/sec   22    223 KBytes       
+[  4]   1.00-2.00   sec  5.87 GBytes  50.4 Gbits/sec    0    332 KBytes       
+[  4]   2.00-3.00   sec  5.89 GBytes  50.6 Gbits/sec    0    332 KBytes       
+[  4]   3.00-4.00   sec  5.88 GBytes  50.5 Gbits/sec    0    332 KBytes       
+[  4]   4.00-5.00   sec  5.88 GBytes  50.5 Gbits/sec    0    332 KBytes       
+[  4]   5.00-6.00   sec  5.88 GBytes  50.5 Gbits/sec    0    332 KBytes       
+[  4]   6.00-7.00   sec  5.89 GBytes  50.6 Gbits/sec    0    332 KBytes       
+[  4]   7.00-8.00   sec  5.84 GBytes  50.1 Gbits/sec    0    332 KBytes       
+[  4]   8.00-9.00   sec  5.91 GBytes  50.8 Gbits/sec    0    332 KBytes       
+[  4]   9.00-10.00  sec  5.86 GBytes  50.3 Gbits/sec    0    332 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  58.8 GBytes  50.5 Gbits/sec   22             sender
+[  4]   0.00-10.00  sec  58.8 GBytes  50.5 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.6% (2.3%u/97.2%s), remote/receiver 46.2% (4.1%u/42.1%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-x7p5f 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:26:54 GMT
+Connecting to host 10.103.224.97, port 5001
+      Cookie: jobiperfclient-x7p5f.1598642814.5944
+      TCP MSS: 1448
+[  4] local 10.0.2.16 port 35682 connected to 10.103.224.97 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  5.89 GBytes  50.6 Gbits/sec  115    265 KBytes       
+[  4]   1.00-2.00   sec  5.96 GBytes  51.2 Gbits/sec    0    265 KBytes       
+[  4]   2.00-3.00   sec  6.01 GBytes  51.6 Gbits/sec    0    265 KBytes       
+[  4]   3.00-4.00   sec  5.95 GBytes  51.1 Gbits/sec    0    330 KBytes       
+[  4]   4.00-5.00   sec  5.99 GBytes  51.5 Gbits/sec    0    330 KBytes       
+[  4]   5.00-6.00   sec  6.01 GBytes  51.7 Gbits/sec    0    330 KBytes       
+[  4]   6.00-7.00   sec  5.95 GBytes  51.1 Gbits/sec    0    330 KBytes       
+[  4]   7.00-8.00   sec  6.00 GBytes  51.6 Gbits/sec    0    330 KBytes       
+[  4]   8.00-9.00   sec  5.98 GBytes  51.4 Gbits/sec    0    330 KBytes       
+[  4]   9.00-10.00  sec  6.00 GBytes  51.5 Gbits/sec    0    330 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  59.7 GBytes  51.3 Gbits/sec  115             sender
+[  4]   0.00-10.00  sec  59.7 GBytes  51.3 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (2.0%u/97.6%s), remote/receiver 48.3% (3.6%u/44.6%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-x7p5f 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:27:15 GMT
+Connecting to host 10.103.224.97, port 5001
+      Cookie: jobiperfclient-x7p5f.1598642835.7710
+      TCP MSS: 1448
+[  4] local 10.0.2.16 port 35700 connected to 10.103.224.97 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.04 GBytes  51.9 Gbits/sec    6    206 KBytes       
+[  4]   1.00-2.00   sec  6.03 GBytes  51.8 Gbits/sec    0    240 KBytes       
+[  4]   2.00-3.00   sec  5.94 GBytes  51.0 Gbits/sec    0    270 KBytes       
+[  4]   3.00-4.00   sec  5.94 GBytes  51.0 Gbits/sec    0    270 KBytes       
+[  4]   4.00-5.00   sec  6.02 GBytes  51.7 Gbits/sec    0    285 KBytes       
+[  4]   5.00-6.00   sec  6.02 GBytes  51.7 Gbits/sec    0    285 KBytes       
+[  4]   6.00-7.00   sec  5.98 GBytes  51.4 Gbits/sec    0    306 KBytes       
+[  4]   7.00-8.00   sec  5.99 GBytes  51.4 Gbits/sec    0    306 KBytes       
+[  4]   8.00-9.00   sec  6.02 GBytes  51.7 Gbits/sec    0    314 KBytes       
+[  4]   9.00-10.00  sec  5.96 GBytes  51.2 Gbits/sec    0    314 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  59.9 GBytes  51.5 Gbits/sec    6             sender
+[  4]   0.00-10.00  sec  59.9 GBytes  51.5 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.6% (2.1%u/97.5%s), remote/receiver 46.4% (3.3%u/43.1%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-x7p5f 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:27:36 GMT
+Connecting to host 10.103.224.97, port 5001
+      Cookie: jobiperfclient-x7p5f.1598642856.9478
+      TCP MSS: 1448
+[  4] local 10.0.2.16 port 35708 connected to 10.103.224.97 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  5.91 GBytes  50.7 Gbits/sec   37    262 KBytes       
+[  4]   1.00-2.00   sec  5.90 GBytes  50.7 Gbits/sec    0    289 KBytes       
+[  4]   2.00-3.00   sec  5.90 GBytes  50.7 Gbits/sec   39    235 KBytes       
+[  4]   3.00-4.00   sec  5.93 GBytes  51.0 Gbits/sec   40    565 KBytes       
+[  4]   4.00-5.00   sec  5.95 GBytes  51.1 Gbits/sec  117    294 KBytes       
+[  4]   5.00-6.00   sec  5.94 GBytes  51.1 Gbits/sec    0    314 KBytes       
+[  4]   6.00-7.00   sec  5.98 GBytes  51.4 Gbits/sec    0    339 KBytes       
+[  4]   7.00-8.00   sec  5.92 GBytes  50.8 Gbits/sec    0    339 KBytes       
+[  4]   8.00-9.00   sec  5.94 GBytes  51.1 Gbits/sec    0    339 KBytes       
+[  4]   9.00-10.00  sec  5.96 GBytes  51.2 Gbits/sec    0    339 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  59.3 GBytes  51.0 Gbits/sec  233             sender
+[  4]   0.00-10.00  sec  59.3 GBytes  51.0 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (1.9%u/97.6%s), remote/receiver 46.3% (4.0%u/42.3%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-ccl4n 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:29:25 GMT
+Connecting to host 10.103.224.97, port 5001
+      Cookie: jobiperfclient-ccl4n.1598642965.6183
+      TCP MSS: 1448
+[  4] local 10.0.2.18 port 50582 connected to 10.103.224.97 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  5.89 GBytes  50.6 Gbits/sec    0    296 KBytes       
+[  4]   1.00-2.00   sec  5.92 GBytes  50.9 Gbits/sec    0    344 KBytes       
+[  4]   2.00-3.00   sec  5.92 GBytes  50.8 Gbits/sec    0    362 KBytes       
+[  4]   3.00-4.00   sec  5.87 GBytes  50.4 Gbits/sec    0    464 KBytes       
+[  4]   4.00-5.00   sec  5.92 GBytes  50.9 Gbits/sec    0    464 KBytes       
+[  4]   5.00-6.00   sec  5.95 GBytes  51.1 Gbits/sec    0    564 KBytes       
+[  4]   6.00-7.00   sec  5.91 GBytes  50.8 Gbits/sec    0    564 KBytes       
+[  4]   7.00-8.00   sec  5.98 GBytes  51.4 Gbits/sec    0    653 KBytes       
+[  4]   8.00-9.00   sec  5.93 GBytes  51.0 Gbits/sec    0    653 KBytes       
+[  4]   9.00-10.00  sec  5.99 GBytes  51.4 Gbits/sec    0    719 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  59.3 GBytes  50.9 Gbits/sec    0             sender
+[  4]   0.00-10.00  sec  59.3 GBytes  50.9 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (1.8%u/97.8%s), remote/receiver 46.8% (3.8%u/43.0%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-ccl4n 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:29:46 GMT
+Connecting to host 10.103.224.97, port 5001
+      Cookie: jobiperfclient-ccl4n.1598642986.7996
+      TCP MSS: 1448
+[  4] local 10.0.2.18 port 50600 connected to 10.103.224.97 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  5.91 GBytes  50.7 Gbits/sec    4    208 KBytes       
+[  4]   1.00-2.00   sec  5.86 GBytes  50.3 Gbits/sec    0    208 KBytes       
+[  4]   2.00-3.00   sec  5.87 GBytes  50.4 Gbits/sec    0    208 KBytes       
+[  4]   3.00-4.00   sec  5.88 GBytes  50.5 Gbits/sec    0    883 KBytes       
+[  4]   4.00-5.00   sec  5.96 GBytes  51.2 Gbits/sec    0    883 KBytes       
+[  4]   5.00-6.00   sec  5.93 GBytes  50.9 Gbits/sec    0    883 KBytes       
+[  4]   6.00-7.00   sec  5.91 GBytes  50.8 Gbits/sec    0    883 KBytes       
+[  4]   7.00-8.00   sec  5.87 GBytes  50.4 Gbits/sec    0    883 KBytes       
+[  4]   8.00-9.00   sec  5.89 GBytes  50.6 Gbits/sec    0    883 KBytes       
+[  4]   9.00-10.00  sec  5.92 GBytes  50.9 Gbits/sec    0    883 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  59.0 GBytes  50.7 Gbits/sec    4             sender
+[  4]   0.00-10.00  sec  59.0 GBytes  50.7 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (2.3%u/97.3%s), remote/receiver 46.4% (3.8%u/42.6%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-ccl4n 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:30:07 GMT
+Connecting to host 10.103.224.97, port 5001
+      Cookie: jobiperfclient-ccl4n.1598643007.9753
+      TCP MSS: 1448
+[  4] local 10.0.2.18 port 50608 connected to 10.103.224.97 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  5.86 GBytes  50.4 Gbits/sec    0    266 KBytes       
+[  4]   1.00-2.00   sec  5.83 GBytes  50.1 Gbits/sec    0    296 KBytes       
+[  4]   2.00-3.00   sec  5.88 GBytes  50.5 Gbits/sec   96    198 KBytes       
+[  4]   3.00-4.00   sec  5.92 GBytes  50.9 Gbits/sec    0    274 KBytes       
+[  4]   4.00-5.00   sec  5.90 GBytes  50.7 Gbits/sec    0    274 KBytes       
+[  4]   5.00-6.00   sec  5.90 GBytes  50.7 Gbits/sec    0    274 KBytes       
+[  4]   6.00-7.00   sec  5.83 GBytes  50.1 Gbits/sec    0    274 KBytes       
+[  4]   7.00-8.00   sec  5.89 GBytes  50.6 Gbits/sec    0    274 KBytes       
+[  4]   8.00-9.00   sec  5.92 GBytes  50.8 Gbits/sec    0    274 KBytes       
+[  4]   9.00-10.00  sec  5.93 GBytes  51.0 Gbits/sec    0    274 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  58.9 GBytes  50.6 Gbits/sec   96             sender
+[  4]   0.00-10.00  sec  58.9 GBytes  50.6 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (2.2%u/97.4%s), remote/receiver 46.3% (3.6%u/42.7%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-4mxvb 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:32:04 GMT
+Connecting to host 10.103.224.97, port 5001
+      Cookie: jobiperfclient-4mxvb.1598643124.5582
+      TCP MSS: 1448
+[  4] local 10.0.2.20 port 44318 connected to 10.103.224.97 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.12 GBytes  52.6 Gbits/sec    6    314 KBytes       
+[  4]   1.00-2.00   sec  6.04 GBytes  51.9 Gbits/sec    0    314 KBytes       
+[  4]   2.00-3.00   sec  6.10 GBytes  52.4 Gbits/sec    0    314 KBytes       
+[  4]   3.00-4.00   sec  6.10 GBytes  52.4 Gbits/sec    0    314 KBytes       
+[  4]   4.00-5.00   sec  6.09 GBytes  52.3 Gbits/sec    0    314 KBytes       
+[  4]   5.00-6.00   sec  6.08 GBytes  52.2 Gbits/sec    0    314 KBytes       
+[  4]   6.00-7.00   sec  6.10 GBytes  52.4 Gbits/sec    0    314 KBytes       
+[  4]   7.00-8.00   sec  6.13 GBytes  52.7 Gbits/sec    0    314 KBytes       
+[  4]   8.00-9.00   sec  6.12 GBytes  52.6 Gbits/sec    0    314 KBytes       
+[  4]   9.00-10.00  sec  6.12 GBytes  52.6 Gbits/sec    0    314 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  61.0 GBytes  52.4 Gbits/sec    6             sender
+[  4]   0.00-10.00  sec  61.0 GBytes  52.4 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (2.0%u/97.5%s), remote/receiver 48.2% (3.8%u/44.4%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-4mxvb 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:32:25 GMT
+Connecting to host 10.103.224.97, port 5001
+      Cookie: jobiperfclient-4mxvb.1598643145.7393
+      TCP MSS: 1448
+[  4] local 10.0.2.20 port 44336 connected to 10.103.224.97 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.02 GBytes  51.7 Gbits/sec   45    247 KBytes       
+[  4]   1.00-2.00   sec  6.04 GBytes  51.9 Gbits/sec    0    250 KBytes       
+[  4]   2.00-3.00   sec  6.07 GBytes  52.1 Gbits/sec   45    315 KBytes       
+[  4]   3.00-4.00   sec  5.96 GBytes  51.2 Gbits/sec    0    315 KBytes       
+[  4]   4.00-5.00   sec  6.04 GBytes  51.9 Gbits/sec    0    315 KBytes       
+[  4]   5.00-6.00   sec  6.04 GBytes  51.9 Gbits/sec    0    315 KBytes       
+[  4]   6.00-7.00   sec  6.02 GBytes  51.7 Gbits/sec   42    258 KBytes       
+[  4]   7.00-8.00   sec  6.05 GBytes  52.0 Gbits/sec   39    647 KBytes       
+[  4]   8.00-9.00   sec  6.03 GBytes  51.8 Gbits/sec   82    315 KBytes       
+[  4]   9.00-10.00  sec  6.06 GBytes  52.1 Gbits/sec   17    244 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  60.3 GBytes  51.8 Gbits/sec  270             sender
+[  4]   0.00-10.00  sec  60.3 GBytes  51.8 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (1.7%u/97.8%s), remote/receiver 46.4% (3.5%u/42.9%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-4mxvb 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:32:46 GMT
+Connecting to host 10.103.224.97, port 5001
+      Cookie: jobiperfclient-4mxvb.1598643166.9155
+      TCP MSS: 1448
+[  4] local 10.0.2.20 port 44344 connected to 10.103.224.97 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.06 GBytes  52.0 Gbits/sec    0    332 KBytes       
+[  4]   1.00-2.00   sec  6.07 GBytes  52.1 Gbits/sec    0    332 KBytes       
+[  4]   2.00-3.00   sec  6.10 GBytes  52.4 Gbits/sec   80    319 KBytes       
+[  4]   3.00-4.00   sec  6.06 GBytes  52.0 Gbits/sec    0    319 KBytes       
+[  4]   4.00-5.00   sec  6.05 GBytes  51.9 Gbits/sec    0    319 KBytes       
+[  4]   5.00-6.00   sec  6.04 GBytes  51.9 Gbits/sec    0    319 KBytes       
+[  4]   6.00-7.00   sec  6.05 GBytes  52.0 Gbits/sec    0    319 KBytes       
+[  4]   7.00-8.00   sec  5.99 GBytes  51.4 Gbits/sec    0    319 KBytes       
+[  4]   8.00-9.00   sec  5.98 GBytes  51.4 Gbits/sec    0    319 KBytes       
+[  4]   9.00-10.00  sec  6.05 GBytes  51.9 Gbits/sec    0    319 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  60.4 GBytes  51.9 Gbits/sec   80             sender
+[  4]   0.00-10.00  sec  60.4 GBytes  51.9 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (2.1%u/97.4%s), remote/receiver 46.4% (3.1%u/43.3%s)
+
+iperf Done.
+
+*****************************************************************
+
+avg speed of network Iperf3 TCP with service (1 service in the cluster): 51.160000 Gbits/sec, client cpu usage: 99.510000 and server CPU usage: 46.660000
+*****************************************************************
+
+MIGRATED TCP STREAM TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 10.104.246.153 (10.104.) port 35001 AF_INET : +/-2.500% @ 99% conf.  : nodelay : cpu bind
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^6bits/s  % S      % S      us/KB   us/KB
+
+131072  16384  16384    10.00      24242.71   23.09    23.09    0.078   0.078  
+
+Alignment      Offset         Bytes    Bytes       Sends   Bytes    Recvs
+Local  Remote  Local  Remote  Xfered   Per                 Per
+Send   Recv    Send   Recv             Send (avg)          Recv (avg)
+    8       8      0       0 29875814400  16384.00    1823475   16397.62 1821960
+
+Maximum
+Segment
+Size (bytes)
+  1398
+
+*****************************************************************
+
+avg speed of network Netperf TCP with service(same node) (1 service in the cluster): 24.242710 Gbits/sec, confidence avg: 2.500000 and cpu client usage : 23.090000error: 2.500000/server: 23.090000:2.500000
+*****************************************************************
+
+2020-08-28 21:38:15.178476178 +0200 CEST m=+1638.257321466iperf 3.0.7
+Linux jobiperfclient-bfpvc 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:39:10 GMT
+Connecting to host 10.106.24.165, port 5001
+      Cookie: jobiperfclient-bfpvc.1598643550.9466
+      TCP MSS: 1448
+[  4] local 10.0.2.29 port 48358 connected to 10.106.24.165 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.07 GBytes  52.1 Gbits/sec   85    325 KBytes       
+[  4]   1.00-2.00   sec  6.01 GBytes  51.6 Gbits/sec    0    325 KBytes       
+[  4]   2.00-3.00   sec  6.10 GBytes  52.4 Gbits/sec    0    325 KBytes       
+[  4]   3.00-4.00   sec  6.07 GBytes  52.1 Gbits/sec    0    325 KBytes       
+[  4]   4.00-5.00   sec  6.09 GBytes  52.3 Gbits/sec    0    325 KBytes       
+[  4]   5.00-6.00   sec  6.09 GBytes  52.3 Gbits/sec    0    325 KBytes       
+[  4]   6.00-7.00   sec  6.06 GBytes  52.1 Gbits/sec    0    325 KBytes       
+[  4]   7.00-8.00   sec  6.08 GBytes  52.3 Gbits/sec    0    325 KBytes       
+[  4]   8.00-9.00   sec  6.11 GBytes  52.4 Gbits/sec    0    325 KBytes       
+[  4]   9.00-10.00  sec  6.09 GBytes  52.3 Gbits/sec    0    325 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  60.8 GBytes  52.2 Gbits/sec   85             sender
+[  4]   0.00-10.00  sec  60.8 GBytes  52.2 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (2.3%u/97.2%s), remote/receiver 46.5% (3.5%u/42.9%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-bfpvc 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:39:32 GMT
+Connecting to host 10.106.24.165, port 5001
+      Cookie: jobiperfclient-bfpvc.1598643572.1236
+      TCP MSS: 1448
+[  4] local 10.0.2.29 port 48380 connected to 10.106.24.165 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.11 GBytes  52.4 Gbits/sec    5    208 KBytes       
+[  4]   1.00-2.00   sec  6.04 GBytes  51.9 Gbits/sec    0    209 KBytes       
+[  4]   2.00-3.00   sec  6.09 GBytes  52.3 Gbits/sec    0    263 KBytes       
+[  4]   3.00-4.00   sec  6.05 GBytes  51.9 Gbits/sec    0    328 KBytes       
+[  4]   4.00-5.00   sec  6.12 GBytes  52.6 Gbits/sec    0    328 KBytes       
+[  4]   5.00-6.00   sec  6.11 GBytes  52.5 Gbits/sec    0    328 KBytes       
+[  4]   6.00-7.00   sec  6.13 GBytes  52.6 Gbits/sec    0    328 KBytes       
+[  4]   7.00-8.00   sec  6.09 GBytes  52.3 Gbits/sec    0    328 KBytes       
+[  4]   8.00-9.00   sec  6.06 GBytes  52.1 Gbits/sec    0    328 KBytes       
+[  4]   9.00-10.00  sec  6.03 GBytes  51.8 Gbits/sec    0    328 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  60.8 GBytes  52.2 Gbits/sec    5             sender
+[  4]   0.00-10.00  sec  60.8 GBytes  52.2 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (1.8%u/97.8%s), remote/receiver 46.5% (3.3%u/43.2%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-bfpvc 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:39:53 GMT
+Connecting to host 10.106.24.165, port 5001
+      Cookie: jobiperfclient-bfpvc.1598643593.2996
+      TCP MSS: 1448
+[  4] local 10.0.2.29 port 48388 connected to 10.106.24.165 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.05 GBytes  52.0 Gbits/sec    6    329 KBytes       
+[  4]   1.00-2.00   sec  6.07 GBytes  52.1 Gbits/sec    0    329 KBytes       
+[  4]   2.00-3.00   sec  6.05 GBytes  52.0 Gbits/sec    0    329 KBytes       
+[  4]   3.00-4.00   sec  6.01 GBytes  51.6 Gbits/sec    0    329 KBytes       
+[  4]   4.00-5.00   sec  6.07 GBytes  52.2 Gbits/sec    0    329 KBytes       
+[  4]   5.00-6.00   sec  6.07 GBytes  52.2 Gbits/sec    0    341 KBytes       
+[  4]   6.00-7.00   sec  6.15 GBytes  52.8 Gbits/sec    0    341 KBytes       
+[  4]   7.00-8.00   sec  6.09 GBytes  52.3 Gbits/sec    0    341 KBytes       
+[  4]   8.00-9.00   sec  6.07 GBytes  52.1 Gbits/sec    0    341 KBytes       
+[  4]   9.00-10.00  sec  6.11 GBytes  52.5 Gbits/sec    0    341 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  60.8 GBytes  52.2 Gbits/sec    6             sender
+[  4]   0.00-10.00  sec  60.8 GBytes  52.2 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.6% (2.2%u/97.4%s), remote/receiver 46.4% (3.2%u/43.2%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-kgblg 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:41:41 GMT
+Connecting to host 10.106.24.165, port 5001
+      Cookie: jobiperfclient-kgblg.1598643701.3340
+      TCP MSS: 1448
+[  4] local 10.0.2.31 port 54576 connected to 10.106.24.165 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  5.83 GBytes  50.0 Gbits/sec  160    347 KBytes       
+[  4]   1.00-2.00   sec  5.94 GBytes  51.0 Gbits/sec    0    347 KBytes       
+[  4]   2.00-3.00   sec  5.89 GBytes  50.6 Gbits/sec    0    347 KBytes       
+[  4]   3.00-4.00   sec  5.89 GBytes  50.6 Gbits/sec    0    347 KBytes       
+[  4]   4.00-5.00   sec  5.90 GBytes  50.7 Gbits/sec    0    347 KBytes       
+[  4]   5.00-6.00   sec  5.92 GBytes  50.9 Gbits/sec    0    347 KBytes       
+[  4]   6.00-7.00   sec  5.90 GBytes  50.6 Gbits/sec    0    347 KBytes       
+[  4]   7.00-8.00   sec  5.90 GBytes  50.6 Gbits/sec    0    347 KBytes       
+[  4]   8.00-9.00   sec  5.91 GBytes  50.7 Gbits/sec    0    347 KBytes       
+[  4]   9.00-10.00  sec  5.91 GBytes  50.7 Gbits/sec    0    347 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  59.0 GBytes  50.7 Gbits/sec  160             sender
+[  4]   0.00-10.00  sec  59.0 GBytes  50.7 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (2.1%u/97.4%s), remote/receiver 48.0% (4.2%u/43.9%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-kgblg 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:42:02 GMT
+Connecting to host 10.106.24.165, port 5001
+      Cookie: jobiperfclient-kgblg.1598643722.5154
+      TCP MSS: 1448
+[  4] local 10.0.2.31 port 54594 connected to 10.106.24.165 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  5.88 GBytes  50.5 Gbits/sec   24    235 KBytes       
+[  4]   1.00-2.00   sec  5.87 GBytes  50.4 Gbits/sec    0    235 KBytes       
+[  4]   2.00-3.00   sec  5.85 GBytes  50.3 Gbits/sec    0    255 KBytes       
+[  4]   3.00-4.00   sec  5.87 GBytes  50.4 Gbits/sec    0    266 KBytes       
+[  4]   4.00-5.00   sec  5.90 GBytes  50.7 Gbits/sec    0    266 KBytes       
+[  4]   5.00-6.00   sec  5.86 GBytes  50.3 Gbits/sec    0    283 KBytes       
+[  4]   6.00-7.00   sec  5.87 GBytes  50.4 Gbits/sec    0    291 KBytes       
+[  4]   7.00-8.00   sec  5.86 GBytes  50.3 Gbits/sec    0    291 KBytes       
+[  4]   8.00-9.00   sec  5.87 GBytes  50.4 Gbits/sec    0    291 KBytes       
+[  4]   9.00-10.00  sec  5.86 GBytes  50.3 Gbits/sec    0    299 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  58.7 GBytes  50.4 Gbits/sec   24             sender
+[  4]   0.00-10.00  sec  58.7 GBytes  50.4 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (2.1%u/97.4%s), remote/receiver 46.3% (3.8%u/42.5%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-kgblg 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:42:23 GMT
+Connecting to host 10.106.24.165, port 5001
+      Cookie: jobiperfclient-kgblg.1598643743.6911
+      TCP MSS: 1448
+[  4] local 10.0.2.31 port 54602 connected to 10.106.24.165 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  5.84 GBytes  50.2 Gbits/sec    0    354 KBytes       
+[  4]   1.00-2.00   sec  5.80 GBytes  49.8 Gbits/sec   45    274 KBytes       
+[  4]   2.00-3.00   sec  5.80 GBytes  49.8 Gbits/sec    0    310 KBytes       
+[  4]   3.00-4.00   sec  5.82 GBytes  50.0 Gbits/sec   94    220 KBytes       
+[  4]   4.00-5.00   sec  5.82 GBytes  50.0 Gbits/sec    0    220 KBytes       
+[  4]   5.00-6.00   sec  5.83 GBytes  50.1 Gbits/sec    0    261 KBytes       
+[  4]   6.00-7.00   sec  5.80 GBytes  49.8 Gbits/sec    0    261 KBytes       
+[  4]   7.00-8.00   sec  5.84 GBytes  50.2 Gbits/sec    0    261 KBytes       
+[  4]   8.00-9.00   sec  5.78 GBytes  49.6 Gbits/sec    0    261 KBytes       
+[  4]   9.00-10.00  sec  5.83 GBytes  50.1 Gbits/sec    0    296 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  58.2 GBytes  50.0 Gbits/sec  139             sender
+[  4]   0.00-10.00  sec  58.2 GBytes  50.0 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (1.3%u/98.2%s), remote/receiver 46.2% (3.6%u/42.6%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-w8fcb 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:44:14 GMT
+Connecting to host 10.106.24.165, port 5001
+      Cookie: jobiperfclient-w8fcb.1598643854.8307
+      TCP MSS: 1448
+[  4] local 10.0.2.33 port 44374 connected to 10.106.24.165 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  5.98 GBytes  51.4 Gbits/sec   32    195 KBytes       
+[  4]   1.00-2.00   sec  5.98 GBytes  51.3 Gbits/sec    0    250 KBytes       
+[  4]   2.00-3.00   sec  5.98 GBytes  51.4 Gbits/sec    0    253 KBytes       
+[  4]   3.00-4.00   sec  5.96 GBytes  51.2 Gbits/sec    0    411 KBytes       
+[  4]   4.00-5.00   sec  5.97 GBytes  51.3 Gbits/sec    0    411 KBytes       
+[  4]   5.00-6.00   sec  6.01 GBytes  51.6 Gbits/sec    0    411 KBytes       
+[  4]   6.00-7.00   sec  6.05 GBytes  52.0 Gbits/sec    0    411 KBytes       
+[  4]   7.00-8.00   sec  6.02 GBytes  51.8 Gbits/sec    0    411 KBytes       
+[  4]   8.00-9.00   sec  6.00 GBytes  51.6 Gbits/sec    0    411 KBytes       
+[  4]   9.00-10.00  sec  5.98 GBytes  51.3 Gbits/sec    0    411 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  59.9 GBytes  51.5 Gbits/sec   32             sender
+[  4]   0.00-10.00  sec  59.9 GBytes  51.5 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (1.8%u/97.7%s), remote/receiver 47.9% (3.7%u/44.2%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-w8fcb 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:44:36 GMT
+Connecting to host 10.106.24.165, port 5001
+      Cookie: jobiperfclient-w8fcb.1598643876.0073
+      TCP MSS: 1448
+[  4] local 10.0.2.33 port 44392 connected to 10.106.24.165 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  5.97 GBytes  51.3 Gbits/sec  188    202 KBytes       
+[  4]   1.00-2.00   sec  5.98 GBytes  51.4 Gbits/sec    0    233 KBytes       
+[  4]   2.00-3.00   sec  5.98 GBytes  51.4 Gbits/sec    0    261 KBytes       
+[  4]   3.00-4.00   sec  5.96 GBytes  51.2 Gbits/sec    0    261 KBytes       
+[  4]   4.00-5.00   sec  5.96 GBytes  51.2 Gbits/sec    0    269 KBytes       
+[  4]   5.00-6.00   sec  5.98 GBytes  51.4 Gbits/sec    0    269 KBytes       
+[  4]   6.00-7.00   sec  5.97 GBytes  51.3 Gbits/sec    0    339 KBytes       
+[  4]   7.00-8.00   sec  5.98 GBytes  51.4 Gbits/sec    0    339 KBytes       
+[  4]   8.00-9.00   sec  5.94 GBytes  51.0 Gbits/sec    0    344 KBytes       
+[  4]   9.00-10.00  sec  5.96 GBytes  51.2 Gbits/sec    0    350 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  59.7 GBytes  51.3 Gbits/sec  188             sender
+[  4]   0.00-10.00  sec  59.7 GBytes  51.3 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (2.1%u/97.4%s), remote/receiver 46.3% (4.2%u/42.0%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-w8fcb 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:44:57 GMT
+Connecting to host 10.106.24.165, port 5001
+      Cookie: jobiperfclient-w8fcb.1598643897.1832
+      TCP MSS: 1448
+[  4] local 10.0.2.33 port 44400 connected to 10.106.24.165 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.08 GBytes  52.2 Gbits/sec    0    333 KBytes       
+[  4]   1.00-2.00   sec  6.08 GBytes  52.2 Gbits/sec    4    232 KBytes       
+[  4]   2.00-3.00   sec  6.10 GBytes  52.4 Gbits/sec    0    259 KBytes       
+[  4]   3.00-4.00   sec  6.10 GBytes  52.4 Gbits/sec    0    259 KBytes       
+[  4]   4.00-5.00   sec  6.07 GBytes  52.2 Gbits/sec    0    389 KBytes       
+[  4]   5.00-6.00   sec  6.06 GBytes  52.1 Gbits/sec    0    389 KBytes       
+[  4]   6.00-7.00   sec  6.08 GBytes  52.2 Gbits/sec    0    389 KBytes       
+[  4]   7.00-8.00   sec  6.10 GBytes  52.4 Gbits/sec    0    389 KBytes       
+[  4]   8.00-9.00   sec  6.08 GBytes  52.2 Gbits/sec    0    389 KBytes       
+[  4]   9.00-10.00  sec  6.05 GBytes  52.0 Gbits/sec    0    389 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  60.8 GBytes  52.2 Gbits/sec    4             sender
+[  4]   0.00-10.00  sec  60.8 GBytes  52.2 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.6% (2.6%u/97.0%s), remote/receiver 46.5% (3.1%u/43.4%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-2cn6h 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:46:46 GMT
+Connecting to host 10.106.24.165, port 5001
+      Cookie: jobiperfclient-2cn6h.1598644006.0065
+      TCP MSS: 1448
+[  4] local 10.0.2.35 port 55292 connected to 10.106.24.165 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  5.99 GBytes  51.4 Gbits/sec    0    362 KBytes       
+[  4]   1.00-2.00   sec  6.07 GBytes  52.2 Gbits/sec    0    401 KBytes       
+[  4]   2.00-3.00   sec  6.02 GBytes  51.7 Gbits/sec    0    401 KBytes       
+[  4]   3.00-4.00   sec  6.04 GBytes  51.9 Gbits/sec    0    489 KBytes       
+[  4]   4.00-5.00   sec  6.11 GBytes  52.5 Gbits/sec    0    489 KBytes       
+[  4]   5.00-6.00   sec  6.06 GBytes  52.0 Gbits/sec    0    616 KBytes       
+[  4]   6.00-7.00   sec  5.93 GBytes  51.0 Gbits/sec    0    616 KBytes       
+[  4]   7.00-8.00   sec  6.06 GBytes  52.0 Gbits/sec    0    730 KBytes       
+[  4]   8.00-9.00   sec  6.02 GBytes  51.7 Gbits/sec    0    891 KBytes       
+[  4]   9.00-10.00  sec  6.02 GBytes  51.7 Gbits/sec    0   1.01 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  60.3 GBytes  51.8 Gbits/sec    0             sender
+[  4]   0.00-10.00  sec  60.3 GBytes  51.8 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.5% (2.1%u/97.5%s), remote/receiver 46.8% (3.3%u/43.4%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-2cn6h 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:47:07 GMT
+Connecting to host 10.106.24.165, port 5001
+      Cookie: jobiperfclient-2cn6h.1598644027.1837
+      TCP MSS: 1448
+[  4] local 10.0.2.35 port 55310 connected to 10.106.24.165 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.00 GBytes  51.6 Gbits/sec   20    889 KBytes       
+[  4]   1.00-2.00   sec  6.00 GBytes  51.5 Gbits/sec    0    889 KBytes       
+[  4]   2.00-3.00   sec  5.97 GBytes  51.3 Gbits/sec    0    889 KBytes       
+[  4]   3.00-4.00   sec  5.98 GBytes  51.4 Gbits/sec    0    889 KBytes       
+[  4]   4.00-5.00   sec  5.98 GBytes  51.4 Gbits/sec    0    889 KBytes       
+[  4]   5.00-6.00   sec  5.95 GBytes  51.1 Gbits/sec    0    889 KBytes       
+[  4]   6.00-7.00   sec  5.97 GBytes  51.3 Gbits/sec    0    889 KBytes       
+[  4]   7.00-8.00   sec  5.98 GBytes  51.3 Gbits/sec    0    889 KBytes       
+[  4]   8.00-9.00   sec  6.00 GBytes  51.5 Gbits/sec    0    889 KBytes       
+[  4]   9.00-10.00  sec  6.00 GBytes  51.6 Gbits/sec    0    889 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  59.8 GBytes  51.4 Gbits/sec   20             sender
+[  4]   0.00-10.00  sec  59.8 GBytes  51.4 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.6% (2.4%u/97.2%s), remote/receiver 46.4% (4.0%u/42.4%s)
+
+iperf Done.
+iperf 3.0.7
+Linux jobiperfclient-2cn6h 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 GNU/Linux
+Time: Fri, 28 Aug 2020 19:47:28 GMT
+Connecting to host 10.106.24.165, port 5001
+      Cookie: jobiperfclient-2cn6h.1598644048.3593
+      TCP MSS: 1448
+[  4] local 10.0.2.35 port 55318 connected to 10.106.24.165 port 5001
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  6.06 GBytes  52.1 Gbits/sec    7    259 KBytes       
+[  4]   1.00-2.00   sec  6.07 GBytes  52.2 Gbits/sec    0    259 KBytes       
+[  4]   2.00-3.00   sec  6.06 GBytes  52.0 Gbits/sec    0    259 KBytes       
+[  4]   3.00-4.00   sec  6.09 GBytes  52.3 Gbits/sec    0    259 KBytes       
+[  4]   4.00-5.00   sec  6.08 GBytes  52.2 Gbits/sec    0    266 KBytes       
+[  4]   5.00-6.00   sec  6.05 GBytes  52.0 Gbits/sec    0    272 KBytes       
+[  4]   6.00-7.00   sec  6.07 GBytes  52.1 Gbits/sec    0    288 KBytes       
+[  4]   7.00-8.00   sec  6.05 GBytes  52.0 Gbits/sec    0    292 KBytes       
+[  4]   8.00-9.00   sec  6.07 GBytes  52.1 Gbits/sec    0    307 KBytes       
+[  4]   9.00-10.00  sec  6.08 GBytes  52.2 Gbits/sec    0    307 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  60.7 GBytes  52.1 Gbits/sec    7             sender
+[  4]   0.00-10.00  sec  60.7 GBytes  52.1 Gbits/sec                  receiver
+CPU Utilization: local/sender 99.6% (2.0%u/97.6%s), remote/receiver 46.4% (4.0%u/42.4%s)
+
+iperf Done.
+
+*****************************************************************
+
+avg speed of network Iperf3 TCP with service (same node) (multiple services in the cluster): 51.580000 Gbits/sec, client cpu usage: 99.540000 and server CPU usage: 46.750000
+*****************************************************************
+
+MIGRATED TCP STREAM TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 10.111.40.67 (10.111.) port 35001 AF_INET : +/-2.500% @ 99% conf.  : nodelay : cpu bind
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^6bits/s  % S      % S      us/KB   us/KB
+
+131072  16384  16384    10.00      24152.58   23.38    23.39    0.079   0.079  
+
+Alignment      Offset         Bytes    Bytes       Sends   Bytes    Recvs
+Local  Remote  Local  Remote  Xfered   Per                 Per
+Send   Recv    Send   Recv             Send (avg)          Recv (avg)
+    8       8      0       0 30262198272  16384.00    1847058   16409.91 1844142
+
+Maximum
+Segment
+Size (bytes)
+  1398
+
+*****************************************************************
+
+avg speed of network Netperf TCP with service(same node) (multiple services in the cluster): 24.152580 Gbits/sec, confidence avg: 2.500000 and cpu client usage : 23.380000error: 2.500000/server: 23.390000:2.500000
+*****************************************************************
+
