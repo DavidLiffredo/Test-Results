@@ -1,0 +1,290 @@
+2020-09-12 01:02:41.534166395 +0200 CEST m=+0.434214315
+POD TO POD DIFFERENT NODES:
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   625M      0 --:--:-- --:--:-- --:--:--  625M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1111M      0 --:--:-- --:--:-- --:--:-- 1111M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1111M      0 --:--:-- --:--:-- --:--:-- 1111M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   909M      0 --:--:-- --:--:-- --:--:--  909M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1000M      0 --:--:-- --:--:-- --:--:-- 1111M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1000M      0 --:--:-- --:--:-- --:--:-- 1000M
+TTFB: 0.001208 TTFB: 0.000755 TTFB: 0.000955 TTFB: 0.000614 TTFB: 0.000591 TTFB: 0.000807 
+*****************************************************************
+
+Network speed and latency with a growing number of services 1 and endpoints 10 : 1.005000 and latency is: 0.000783
+*****************************************************************
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   769M      0 --:--:-- --:--:-- --:--:--  769M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   909M      0 --:--:-- --:--:-- --:--:--  909M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   909M      0 --:--:-- --:--:-- --:--:--  909M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1428M      0 --:--:-- --:--:-- --:--:-- 1428M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1000M      0 --:--:-- --:--:-- --:--:-- 1000M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   909M      0 --:--:-- --:--:-- --:--:--  909M
+TTFB: 0.001088 TTFB: 0.001051 TTFB: 0.000750 TTFB: 0.000628 TTFB: 0.000965 TTFB: 0.000773 
+*****************************************************************
+
+Network speed and latency with a growing number of services 100 and endpoints 10 : 0.931750 and latency is: 0.000885
+*****************************************************************
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1428M      0 --:--:-- --:--:-- --:--:-- 1428M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1111M      0 --:--:-- --:--:-- --:--:-- 1111M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1111M      0 --:--:-- --:--:-- --:--:-- 1111M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+TTFB: 0.000711 TTFB: 0.000679 TTFB: 0.000835 TTFB: 0.000722 TTFB: 0.000811 TTFB: 0.000646 
+*****************************************************************
+
+Network speed and latency with a growing number of services 1000 and endpoints 10 : 1.215250 and latency is: 0.000731
+*****************************************************************
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   500M      0 --:--:-- --:--:-- --:--:--  500M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   714M      0 --:--:-- --:--:-- --:--:--  769M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   909M      0 --:--:-- --:--:-- --:--:--  909M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   909M      0 --:--:-- --:--:-- --:--:--  909M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1111M      0 --:--:-- --:--:-- --:--:-- 1111M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+TTFB: 0.001115 TTFB: 0.001064 TTFB: 0.000649 TTFB: 0.000518 TTFB: 0.000484 TTFB: 0.000619 
+*****************************************************************
+
+Network speed and latency with a growing number of services 1 and endpoints 20 : 0.910750 and latency is: 0.000713
+*****************************************************************
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   909M      0 --:--:-- --:--:-- --:--:--  909M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1111M      0 --:--:-- --:--:-- --:--:-- 1111M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1111M      0 --:--:-- --:--:-- --:--:-- 1111M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+TTFB: 0.000866 TTFB: 0.000578 TTFB: 0.000501 TTFB: 0.000673 TTFB: 0.000936 TTFB: 0.000589 
+*****************************************************************
+
+Network speed and latency with a growing number of services 100 and endpoints 20 : 1.180500 and latency is: 0.000677
+*****************************************************************
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1428M      0 --:--:-- --:--:-- --:--:-- 1428M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1111M      0 --:--:-- --:--:-- --:--:-- 1111M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+TTFB: 0.000929 TTFB: 0.000816 TTFB: 0.000861 TTFB: 0.000756 TTFB: 0.000738 TTFB: 0.000838 
+*****************************************************************
+
+Network speed and latency with a growing number of services 1000 and endpoints 20 : 1.250000 and latency is: 0.000818
+*****************************************************************
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   500M      0 --:--:-- --:--:-- --:--:--  500M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   769M      0 --:--:-- --:--:-- --:--:--  769M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   833M      0 --:--:-- --:--:-- --:--:--  833M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   909M      0 --:--:-- --:--:-- --:--:--  909M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1000M      0 --:--:-- --:--:-- --:--:-- 1000M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   833M      0 --:--:-- --:--:-- --:--:--  833M
+TTFB: 0.000920 TTFB: 0.000914 TTFB: 0.000588 TTFB: 0.000637 TTFB: 0.000512 TTFB: 0.000509 
+*****************************************************************
+
+Network speed and latency with a growing number of services 1 and endpoints 50 : 0.836000 and latency is: 0.000663
+*****************************************************************
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   833M      0 --:--:-- --:--:-- --:--:--  833M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   833M      0 --:--:-- --:--:-- --:--:--  833M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   909M      0 --:--:-- --:--:-- --:--:--  909M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   909M      0 --:--:-- --:--:-- --:--:--  909M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   909M      0 --:--:-- --:--:-- --:--:--  909M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   909M      0 --:--:-- --:--:-- --:--:--  909M
+TTFB: 0.000834 TTFB: 0.000665 TTFB: 0.000600 TTFB: 0.000583 TTFB: 0.000633 TTFB: 0.000587 
+*****************************************************************
+
+Network speed and latency with a growing number of services 100 and endpoints 50 : 0.890000 and latency is: 0.000621
+*****************************************************************
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1111M      0 --:--:-- --:--:-- --:--:-- 1111M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  2000M      0 --:--:-- --:--:-- --:--:-- 2000M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1428M      0 --:--:-- --:--:-- --:--:-- 1428M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   555M      0 --:--:-- --:--:-- --:--:--  555M
+TTFB: 0.000887 TTFB: 0.000887 TTFB: 0.000825 TTFB: 0.000605 TTFB: 0.000687 TTFB: 0.001102 
+*****************************************************************
+
+Network speed and latency with a growing number of services 1000 and endpoints 50 : 1.259750 and latency is: 0.000821
+*****************************************************************
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   666M      0 --:--:-- --:--:-- --:--:--  666M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   833M      0 --:--:-- --:--:-- --:--:--  833M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   909M      0 --:--:-- --:--:-- --:--:--  909M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1428M      0 --:--:-- --:--:-- --:--:-- 1428M
+TTFB: 0.000990 TTFB: 0.000696 TTFB: 0.000567 TTFB: 0.000655 TTFB: 0.000460 TTFB: 0.000527 
+*****************************************************************
+
+Network speed and latency with a growing number of services 1 and endpoints 100 : 1.060500 and latency is: 0.000611
+*****************************************************************
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0   714M      0 --:--:-- --:--:-- --:--:--  714M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1428M      0 --:--:-- --:--:-- --:--:-- 1428M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1111M      0 --:--:-- --:--:-- --:--:-- 1111M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1111M      0 --:--:-- --:--:-- --:--:-- 1111M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+TTFB: 0.000792 TTFB: 0.000504 TTFB: 0.000646 TTFB: 0.000550 TTFB: 0.000548 TTFB: 0.000519 
+*****************************************************************
+
+Network speed and latency with a growing number of services 100 and endpoints 100 : 1.180500 and latency is: 0.000566
+*****************************************************************
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1111M      0 --:--:-- --:--:-- --:--:-- 1111M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1428M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.0M  100 10.0M    0     0  1250M      0 --:--:-- --:--:-- --:--:-- 1250M
+TTFB: 0.000780 TTFB: 0.000829 TTFB: 0.000841 TTFB: 0.000597 TTFB: 0.000722 TTFB: 0.000795 
+*****************************************************************
+
+Network speed and latency with a growing number of services 1000 and endpoints 100 : 1.250000 and latency is: 0.000781
+*****************************************************************
+
